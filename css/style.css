@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Arya&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.background-pagina {
+
+    background-color: #113A67;
+}
+
+header {
+    height: 140px;
+    background-color: #3B3838;
+}
+
+.container-grid {
+    width: 1920px;
+    margin: 0 auto;
+
+}
+
+.alinha-cabecalho{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu {
+    width:1920px;
+    display: flex;
+    justify-content: flex-end;
+   
+    align-items: center;
+
+
+}
+
+
+.menu a {
+
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+
+    background-color: slategray;
+}
+
+.listMenu li{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.listMenu li:hover{
+    text-transform: uppercase;
+
+}
+
