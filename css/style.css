@@ -55,11 +55,26 @@ header {
 }
 
 .listMenu li{
-
+    width: 540;
+    height: 937;
     color: white;
     text-decoration: none;
-
 }
+
+.listMenu {
+    
+    display:inline-block;
+    vertical-align: middle ;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #3B3838;
+    border-width: 10px;
+  
+}
+
+
+
 
 .listMenu li:hover{
     text-transform: uppercase;
